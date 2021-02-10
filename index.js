@@ -21,6 +21,7 @@ function exactMatch(drivers, obj) {
   return arr1
 }
 
-function exactMatchToList(drivers, object) {
-  
+function exactMatchToList(drivers, obj) {
+  let arr = exactMatch(drivers, obj)
+  arr1 =  arr.map(e => e.name)
 }
