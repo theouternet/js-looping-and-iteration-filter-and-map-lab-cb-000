@@ -18,6 +18,7 @@ function exactMatch(drivers, obj) {
   let arr1 = []
   let key = Object.keys(obj)[0]
   arr1 = drivers.filter(e => e[key] == obj[key])
+  return arr1
 }
 
 function exactMatchToList(drivers, object) {
