@@ -11,7 +11,7 @@ let arr1 = driversWithRevenueOver(array, number)
 let arr2 = arr1.map(e => e.name)
 
 return arr2
-
+  
 }
 
 function exactMatch(drivers, object) {
