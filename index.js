@@ -24,4 +24,5 @@ function exactMatch(drivers, obj) {
 function exactMatchToList(drivers, obj) {
   let arr = exactMatch(drivers, obj)
   arr1 =  arr.map(e => e.name)
+  return arr1
 }
