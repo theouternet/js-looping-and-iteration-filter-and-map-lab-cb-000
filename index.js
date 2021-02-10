@@ -16,7 +16,7 @@ return arr2
 
 function exactMatch(drivers, object) {
   let arr1 = []
-  arr1 = drivers.filter(e => e.Object.keys() == object[0])
+  arr1 = drivers.filter(e => e.Object.keys(object)[0] == object[0])
 }
 
 function exactMatchToList(drivers, object) {
