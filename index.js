@@ -8,7 +8,7 @@ function driversWithRevenueOver(array, number) {
 function driverNamesWithRevenueOver(array, number) {
 let arr1 = driversWithRevenueOver(array, number)
 
-let arr2 = arr1.map(e => e[name])
+let arr2 = arr1.map(e => e.name)
 
 }
 
